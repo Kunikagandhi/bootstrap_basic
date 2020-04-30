@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+        footer {
+            background-color: darkslategrey;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-decoration-line: underline;
+            color: blanchedalmond;
+            font-size: large;
+        }
+
+        table {
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(odd) {
+            background-color:darkseagreen;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+         th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color:darksalmon;
+            color: white;
+        }
+
+
+    </style>
+    
+
+</head>
+<body style="background-color:cornsilk">
+    <header>
+        <div class="container-fluid">
+            <h1 style="text-align:center; color:midnightblue; text-decoration-line:underline; text-shadow: 2px 2px #F7DC55; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; "><b>Bootstrap Assignment</b></h1>
+            </br><p>This project has been created to demonstrate the responsive of websites using Bootstrap.If you will resize the browser window, you'll see the effect. The columns of the main menu will automatically stack on top of each other in a list format, when the screen is less than 768px wide. The text and headings will also adjust automatically.</p>
+            </br>
+        </div>
+    </header>
+
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">HandsOn <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="d1s1.html">Day1-Session 1</a></li>
+                        <li><a href="d1s2.html">Day1-Session 2</a></li>
+                        <li class="active"><a href="#">Day2-Session 1</a></li>
+                        <li><a href="d2s2.html">Day2-Session 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="pcheck.html">Practice Check</a></li>
+                <li><a href="fcheck.html">Final Check</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+    <div>
+        <table border="2">
+            <tr>
+                <th> Date of event</th>
+                <th> Name of event</th>
+                <th> Timings</th>
+
+            </tr>
+            <tr>
+                <td> 02-05-2020 </td>
+                <td> C#-Core HandsOn</td>
+                <td>2:00pm-4:00pm</td>
+            </tr>
+            <tr>
+                <td> 03-05-2020 </td>
+                <td> C#-Core Quiz</td>
+                <td>11:00am-12:00 noon</td>
+            </tr>
+            <tr>
+                <td> 06-05-2020 </td>
+                <td> C#-Core Code Challenge</td>
+                <td> 4:00pm-6:00pm</td>
+            </tr>
+            <tr>
+                <td> 08-05-2020 </td>
+                <td> C#-Core Code Challenge Result</td>
+                <td> - </td>
+            </tr>
+
+        </table>
+    </div>
+    </br>
+
+    </br>
+    </br>
+    </br></br></br></br></br></br>
+    </br>
+
+
+
+
+
+
+
+
+
+    <footer>
+        <p align="center"> &copy; 2020 Copyright :  Developed by Kunika Gandhi </p>
+    </footer>
+
+
+
+
+</body>
+</html>
